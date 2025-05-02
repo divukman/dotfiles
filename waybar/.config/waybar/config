@@ -41,23 +41,23 @@
     "format": "{name}: {icon}",
     "format-icons": {
         "1": "",   // Terminal icon
-        "2": "",   // Browser icon
-        "3": "",   // Code editor icon
-        "4": "",   // Music icon
-        "5": "",   // Chat icon
+        "2": "",   // Browser icon
+        "3": "",   // Browser icon
+        "4": "",   // Code editor icon
+        "5": "",   // Music icon
+        "6": "",   // Music icon
+        "7": "",   // Music icon
+        "8": "",   // Chat icon
+        "9": "󱡄",   // Chat icon
         "urgent": "",  // Urgent workspace
         "active": "",  // Active workspace (Hyprland uses "active" instead of "focused")
         "default": ""  // Default workspace
     },
     "on-click": "activate",
-    "persistent_workspaces": {  // Hyprland-specific option
-        "1": {},
-        "2": {},
-        "3": {},
-        "4": {},
-        "5": {}
-    }
-},
+    "persistent-workspaces": {
+		"*": [1,2,3,4,5,6,7,8,9], // 2-9 on every monitor
+	}
+    },
 
     "keyboard-state": {
         "numlock": true,

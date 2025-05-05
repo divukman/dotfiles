@@ -35,20 +35,20 @@
     ],
 
 "hyprland/workspaces": {
-    "disable-scroll": true,
+    "disable-scroll": false,
     "all-outputs": true,
-    "warp-on-scroll": false,
+    "warp-on-scroll": true,
     "format": "{name}: {icon}",
     "format-icons": {
         "1": "",   // Terminal icon
         "2": "",   // Browser icon
-        "3": "",   // Browser icon
-        "4": "",   // Code editor icon
-        "5": "",   // Music icon
-        "6": "",   // Music icon
-        "7": "",   // Music icon
-        "8": "",   // Chat icon
-        "9": "󱡄",   // Chat icon
+        "3": "",   // Browser icon
+        "4": "",   // Chat icon
+        "5": "",   // Book icon
+        "6": "",   // Editor icon
+        "7": "",   // Editor icon
+        "8": "",   // Security icon
+        "9": "󱡄",   // Magic icon
         "urgent": "",  // Urgent workspace
         "active": "",  // Active workspace (Hyprland uses "active" instead of "focused")
         "default": ""  // Default workspace

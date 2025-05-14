@@ -10,21 +10,14 @@
         "sway/window"
     ],
    "modules-right": [
-        "mpd",
-        "idle_inhibitor",
-        "pulseaudio",
         "network",
-        "power-profiles-daemon",
+        "pulseaudio",
         "cpu",
         "memory",
         "temperature",
-        "backlight",
-        "keyboard-state",
-        "sway/language",
         "battery",
         "clock",
-        "tray",
-        "custom/power"
+        "tray"
     ],
   "clock": {
     "format": "<span foreground='#f5c2e7'>   </span>{:%a %d %H:%M}",
